@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    }
+    h2,h4 {
+    text-align: center;
+    padding:10px;
+    }
+    
+    .parent{
+    height: 30vh;
+    width: 80%;
+    margin: auto;
+    background-color: #c9f0ef;
+    }
+    .parent1{
+    height:20vh;
+    width: 80%;
+    margin: auto;
+    background-color: #c9f0ef;
+    }
+    .parent2{
+    height:10vh;
+    width: 80%;
+    margin: auto;
+    background-color: #c9f0ef;
+    }
+    .a,.b,.c,.d,.e,.f,.g,.h,.i{
+    height:10vh;
+    width: 20%;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font-weight: 200;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .a,.d,.g{
+        background-color: pink;
+    }
+    .b,.e,.h{
+        background-color: chartreuse;
+    }
+    .c,.f,.i{
+        background-color:coral;
+    }
+    
+    .box2{
+        display:flex;
+        flex-direction: row;
+    }
+    .box3{
+        display:flex;
+        flex-direction: column;
+    }
+    .box4{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .box5{
+        display:flex;
+        flex-direction: row-reverse;
+    }
+    .box6{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .box7{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .box8{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    }
+    .box9{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .box10{
+        display:flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .box11{
+        display:flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .box12{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box13{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .box14{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .box15{
+        display:flex;
+        flex-direction: row;
+        flex-flow: column;
+    }
